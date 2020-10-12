@@ -1,9 +1,10 @@
 # babel-config-atomikui
+
 The babel configuration for @atomikui/core
 
 ### installation
 
-```
+```javascript
 // with npm
 npm install babel-config-atomikui
 
@@ -13,12 +14,8 @@ yarn add babel-config-atomikui
 
 ### Usage
 
-Include via package.json
+Include via .babelrc.js
 
-```json
-{
-  "name": "my-package",
-  "version": "1.0.0",
-  "babel": "babel-config-atomikui"
-}
+```javascript
+module.exports = require("babel-config-atomikui");
 ```

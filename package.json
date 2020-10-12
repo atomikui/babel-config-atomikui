@@ -1,0 +1,40 @@
+{
+  "name": "babel-config-atomikui",
+  "version": "0.0.0",
+  "description": "The Babel config for @atomikui/core",
+  "author": "Alan Eicker <alaneicker@gmail.com> (http://www.alaneicker.com)",
+  "keywords": [
+    "ESLint"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.16.2",
+    "npm": ">=6.14.4"
+  },
+  "scripts": {
+    "release:major": "npm version major -m \"Upgrade to %s\" && yarn changelog && yarn push-release",
+    "release:minor": "npm version minor -m \"Upgrade to %s\" && yarn changelog && yarn push-release",
+    "release:patch": "npm version patch -m \"Upgrade to %s\" && yarn changelog && yarn push-release",
+    "changelog": "auto-changelog --output CHANGELOG.md --template changelog.hbs && yarn changelog:commit",
+    "changelog:commit": "git commit -m \"Updates CHANGELOG.md\" CHANGELOG.md",
+    "push-release": "git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atomikui/babel-config-atomikui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atomikui/babel-config-atomikui/issues"
+  },
+  "homepage": "https://github.com/atomikui/babel-config-atomikui#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4"
+  }
+}
