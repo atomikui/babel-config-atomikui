@@ -1,6 +1,6 @@
 {
   "name": "babel-config-atomikui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Babel config for @atomikui/core",
   "author": "Alan Eicker <alaneicker@gmail.com> (http://www.alaneicker.com)",
   "keywords": [
