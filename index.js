@@ -13,13 +13,14 @@ module.exports = {
     "@babel/preset-react",
   ],
   plugins: [
-    "@babel/plugin-proposal-class-properties",
+    ["@babel/plugin-proposal-class-properties", {}, "atomikui"],
     [
       "@babel/plugin-transform-runtime",
       {
         corejs: 3,
         regenerator: true,
       },
+      "atomikui",
     ],
   ],
 };
