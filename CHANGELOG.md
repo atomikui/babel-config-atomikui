@@ -1,5 +1,15 @@
 <br />
 
+### [v0.1.1](https://github.com/atomikui/babel-config-atomikui/compare/v0.1.0...v0.1.1) - 2020-11-24
+
+#### Commits
+
+- Updates CHANGELOG.md [`bf14509`](https://github.com/atomikui/babel-config-atomikui/commit/bf145099b82b2dc958f3dca9edc1595c1b7f95fb)
+- Adds labels to babel plugins [`ecacb0b`](https://github.com/atomikui/babel-config-atomikui/commit/ecacb0b7ef6d0525770a50dd5d3f35825d47df6c)
+- Upgrade to 0.1.1 [`248f1fb`](https://github.com/atomikui/babel-config-atomikui/commit/248f1fbaed619abafd45f17ca671fea9d1232c87)
+
+<hr />
+
 ### v0.1.0 - 2020-10-12
 
 #### Commits
